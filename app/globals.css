@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom global styles */
+html,
+body {
+  @apply bg-white text-gray-900 antialiased;
+}
+
+/* Prevent horizontal overflow */
+body {
+  overflow-x: hidden;
+}
